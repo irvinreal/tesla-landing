@@ -1,0 +1,35 @@
+<section
+  class='landing-section bg-black h-screen w-screen text-center overflow-hidden relative'
+  data-header-color='white'
+>
+  <div class='z-30 relative h-full flex flex-col'>
+    <header class='flex flex-col px-10 md:px-0'>
+      <h2 class='text-white pt-[85px] text-[40px] font-medium'>
+        Vive la experiencia Tesla
+      </h2>
+      <p class='text-white text-sm pt-1'>
+        Agenda una demostración de manejo hoy
+      </p>
+    </header>
+
+    <footer
+      class='flex flex-col flex-grow flex-nowrap justify-end items-center pb-[90px]'
+    >
+      <div>
+        <a
+          href='#'
+          class='bg-white/5 backdrop-blur-sm text-white text-sm font-medium tracking-wide w-auto px-8 py-2 border-[3px] border-white rounded-[4px] transition-colors duration-300 ease-in-out hover:text-black hover:bg-white hover:delay-500'
+          >Demostración de manejo</a
+        >
+      </div>
+    </footer>
+  </div>
+  <div class='absolute top-0 bottom-16 h-full w-full z-10 object-bottom'>
+    <video
+      class='object-center object-cover h-full w-full'
+      autoplay
+      muted
+      loop
+      src='/public/video.webm'></video>
+  </div>
+</section>
